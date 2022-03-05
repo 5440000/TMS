@@ -12,6 +12,7 @@
 .container {
   padding: 0 12px;
   margin: 0 auto;
+  max-width: 1920px;
 }
 h1 {
   font-family: Playfair Display;
@@ -239,3 +240,67 @@ h1 {
   margin-bottom: 25px;
 }
 /* section collection-2018 */
+
+.collection-2018 {
+  background-color: black;
+}
+.collection-2018__container {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.collection-2018__image-big {
+  display: flex;
+}
+
+.collection-2018__catalog__text {
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  max-width: 471px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.fd-column {
+  flex-direction: column;
+  flex-basis: 880px;
+}
+
+.collection-2018__container__catalog {
+  margin: 0 auto;
+}
+
+.collection-2018__catalog__title {
+  margin-bottom: 80px;
+}
+.collection-2018__catalog__line {
+  margin-bottom: 40px;
+  max-width: 120px;
+  width: 100%;
+  border: 1px solid #ffffff;
+}
+.collection-2018__container__catalog__items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0;
+}
+.catalog-2018__button {
+  width: 300px;
+  height: 60px;
+  font-family: PT Sans;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+.image__big-image {
+  width: 100%;
+  
+}
