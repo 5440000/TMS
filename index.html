@@ -1,113 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
 
     <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
 
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="container header__container">
-            <div class="header__head">
-                <div class="header__head__infororm-warking-mode">
-                    <div class="infororm-warking-mode__call-icon"><i class="fas fa-phone"></i></div>
-                    <div class="infororm-warking-mode__phone">8 (812) 123-45-67          <Span class="margin-7px">|</Span></div>
-                    <div class="infororm-warking-mode__days">Работаем 7 дней в неделю<Span class="margin-7px">|</Span></div>
-                    <div class="infororm-warking-mode__time">9:00 — 18:00</div>
+      <div class="container header__container">
+        <div class="header__head">
+          <div class="header__head__infororm-warking-mode">
+            <div class="infororm-warking-mode__call-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="infororm-warking-mode__phone">
+              8 (812) 123-45-67 <span class="margin-7px">|</span>
+            </div>
+            <div class="infororm-warking-mode__days">
+              Работаем 7 дней в неделю<span class="margin-7px">|</span>
+            </div>
+            <div class="infororm-warking-mode__time">9:00 — 18:00</div>
+          </div>
+          <div class="header__head__top-bar">
+            <div class="top-bar__item">
+              <i class="fas fa-sign-in-alt"></i>
+              <a href="#" class="item__link">Войти </a>/
+              <a href="#" class="item__link"> Регистрация</a>
+            </div>
+          </div>
+        </div>
+        <div class="header__main">
+          <img src="./img/logo.png" class="header__main__logo" />
+          <nav class="header__main__menu">
+            <a class="menu__link menu__link_active">ПОНРАВИЛОСЬ</a>
+            <a class="menu__link">ЛИЧНЫЙ КАБИНЕТ</a>
+            <a class="menu__link">НАСТРОЙКИ</a>
+            <a class="ms-10 menu__link-icon"
+              ><i class="fas fa-shopping-cart"></i
+            ></a>
+            <a class="ms-10 menu__link-icon"><i class="fas fa-search"></i></a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="main">
+      <div class="container">
+        <div class="main__content">
+          <img class="main__image" src="./img/big-logo.png" alt="" />
+          <p class="main__disription">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
+            interdum purus, est tortor pulvinar ut in. Fringilla a diam enim sed
+            justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis.
+            Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi.
+            Tortor nibh magna feugiat id nunc, dui nisl viverra.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="new__collection">
+      <div class="container container__flex">
+        <div class="new__collection__container">
+          <h1 class="showcase__title">СЕЗОН 2020/21</h1>
+          <div class="line-120"></div>
+          <div class="new__collection__catalog">
+            <div class="catalog__main">
+              <div class="catalog__main__order">
+                <div class="catalog__main__image">
+                  <img src="./img/01.png" alt="" />
                 </div>
-                <div class="header__head__top-bar">
-                    <div class="top-bar__item"><i class="fas fa-sign-in-alt"></i>
-                        <a href="#" class="item__link">Войти </a>/
-                        <a href="#" class="item__link"> Регистрация</a>  
+                <div class="catalog__main__title">Louis XVI ATHOS</div>
+                <div class="catalog__main__subtitle">165 000 руб.</div>
+              </div>
+              <div class="catalog__main__order">
+                <div class="catalog__main__image">
+                  <img class="" src="./img/01.png" alt="" />
+                </div>
+                <div class="catalog__main__title">Louis XVI ATHOS</div>
+                <div class="catalog__main__subtitle">165 000 руб.</div>
+              </div>
+              <div class="catalog__main__order">
+                <div class="catalog__main__image">
+                  <img src="./img/01.png" alt="" />
+                </div>
+                <div class="catalog__main__title">Louis XVI ATHOS</div>
+                <div class="catalog__main__subtitle">165 000 руб.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="catalog__title">
+          <div class="catalog__title__container">
+            <h1 class="catalog__title__h1">Новая коллекция</h1>
+            <div class="title__container__line"></div>
+            <button class="catalog__button"><p>Каталог</p></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="collection-2018">
+      <div class="container collection-2018__container">
+        <div class="collection-2018__image-big">
+          <img class="image__big-image" src="./img/big_image.png" alt="" />
+        </div>
+
+        <div class="collection-2018__container__catalog">
+          <div class="collection-2018__container__catalog__items">
+            <h1 class="collection-2018__catalog_title">коллекция 2018</h1>
+            <div class="collection-2018__catalog__line"></div>
+            <span class="collection-2018__catalog__text"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non
+              rutrum ornare ut mattis habitant dui arcu. Sagittis amet nunc ut
+              neque quis nibh arcu. Vivamus vestibulum nisi et venenatis sed
+              scelerisque magna consectetur. Amet convallis quis gravida
+              facilisis vulputate. Faucibus facilisi habitasse ipsum interdum
+              dictum aliquet. Velit quis ullamcorper pulvinar nulla malesuada
+              integer. Aenean praesent viverra nulla nullam natoque volutpat
+              curabitur auctor. Viverra viverra ullamcorper scelerisque risus
+              dignissim egestas. Id aliquam a aliquam egestas leo orci pharetra
+              sed diam.
+            </span>
+            <button class="catalog-2018__button">
+              <p>посмотреть коллекцию</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="new-goods">
+        <div class="container">
+            <div class="new-goods__container">
+                <div class="new-goods__container__title">
+                    <h1 class="new-goods__container__h1">новые поступления</h1>
+                </div>
+                <div class="new-goods__container__line"></div>
+
+                <div class="new-goods__container__main ">
+                    <div class="catalog__main__order catalog__main__order_mb20">
+                        <div class="catalog__main__image">
+                          <img src="./img/01.png" alt="" />
+                        </div>
+                        <div class="catalog__main__title">Louis XVI ATHOS</div>
+                        <div class="catalog__main__subtitle">165 000 руб.</div>
+                    </div>
+                    <div class="catalog__main__order">
+                        <div class="catalog__main__image">
+                          <img src="./img/01.png" alt="" />
+                        </div>
+                        <div class="catalog__main__title">Louis XVI ATHOS</div>
+                        <div class="catalog__main__subtitle">165 000 руб.</div>
+                    </div>
+                    <div class="catalog__main__order">
+                        <div class="catalog__main__image">
+                          <img src="./img/01.png" alt="" />
+                        </div>
+                        <div class="catalog__main__title">Louis XVI ATHOS</div>
+                        <div class="catalog__main__subtitle">165 000 руб.</div>
+                    </div>
+                    <div class="catalog__main__order">
+                        <div class="catalog__main__image">
+                          <img src="./img/01.png" alt="" />
+                        </div>
+                        <div class="catalog__main__title">Louis XVI ATHOS</div>
+                        <div class="catalog__main__subtitle">165 000 руб.</div>
+                    </div>
+                    <div class="catalog__main__order">
+                        <div class="catalog__main__image">
+                          <img src="./img/01.png" alt="" />
+                        </div>
+                        <div class="catalog__main__title">Louis XVI ATHOS</div>
+                        <div class="catalog__main__subtitle">165 000 руб.</div>
+                    </div>
+                    <div class="catalog__main__order">
+                        <div class="catalog__main__image">
+                          <img src="./img/01.png" alt="" />
+                        </div>
+                        <div class="catalog__main__title">Louis XVI ATHOS</div>
+                        <div class="catalog__main__subtitle">165 000 руб.</div>
+                    </div>
+                    <div class="catalog__main__order">
+                        <div class="catalog__main__image">
+                          <img src="./img/01.png" alt="" />
+                        </div>
+                        <div class="catalog__main__title">Louis XVI ATHOS</div>
+                        <div class="catalog__main__subtitle">165 000 руб.</div>
+                    </div>
+                    <div class="catalog__main__order">
+                        <div class="catalog__main__image">
+                          <img src="./img/01.png" alt="" />
+                        </div>
+                        <div class="catalog__main__title">Louis XVI ATHOS</div>
+                        <div class="catalog__main__subtitle">165 000 руб.</div>
+                    </div>
                     </div>
                 </div>
             </div>
-            <div class="header__main">
-                <img src="./img/logo.png"  class="header__main__logo">
-                <nav  class="header__main__menu ">
-                    <a class="menu__link  menu__link_active">ПОНРАВИЛОСЬ</a>
-                    <a class="menu__link ">ЛИЧНЫЙ КАБИНЕТ</a>
-                    <a class="menu__link ">НАСТРОЙКИ</a>
-                    <a class="ms-10 menu__link-icon"><i class="fas fa-shopping-cart"></i></a>
-                    <a class=" ms-10 menu__link-icon"><i class="fas fa-search"></i></a>
-                </nav>
-            </div>    
         </div>
-    </header>
-    <section class="main">
+    </section>
+    <section class="our-brands">
         <div class="container">
-            <div class="main__content">
-                <img class="main__image" src="./img/big-logo.png" alt="">
-                <p class="main__disription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
-            </div>        
+            <div class="container__our-brands">
+                
+            </div>
         </div>
     </section>
-    <section class="new__collection">
-        <div class="container container__flex">
-            <div class="new__collection__container">
-                <h1 class="showcase__title">СЕЗОН 2020/21</h1>
-                <div class="line-120"></div>
-                <div class="new__collection__catalog">
-                        <div class="catalog__main">
-                            <div class="catalog__main__order">
-                                <div class="catalog__main__image"><img src="./img/01.png" alt=""></div>
-                                <div class="catalog__main__title">Louis XVI ATHOS</div>
-                                <div class="catalog__main__subtitle">165 000 руб.  </div>
-                            </div>    
-                            <div class="catalog__main__order">
-                                <div class="catalog__main__image"><img class="" src="./img/01.png" alt=""></div>
-                                <div class="catalog__main__title">Louis XVI ATHOS</div>
-                                <div class="catalog__main__subtitle">165 000 руб.  </div>
-                            </div>    
-                            <div class="catalog__main__order">
-                                <div class="catalog__main__image"><img src="./img/01.png" alt=""></div>
-                                <div class="catalog__main__title">Louis XVI ATHOS</div>
-                                <div class="catalog__main__subtitle">165 000 руб.  </div>
-                            </div>    
-                        </div>
-                </div>  
-            </div>           
-            <div class="catalog__title" >
-                <div class="catalog__title__container">
-                            <h1 class="catalog__title__h1">Новая коллекция</h1>
-                            <div class="title__container__line"></div>
-                            <button class="catalog__button"><p>Каталог</p>
-                            </button>
-                </div>            
-            </div>    
-               
-        
-        
-        </div>
-    </section>
-    <section class="collection-2018">
-        <div class="container collection-2018__container">
-            <div class="collection-2018__image-big">
-                 <img class="image__big-image" src="./img/big_image.png" alt="">
-            </div> 
-                 
-            <div class="collection-2018__container__catalog">
-                <div class="collection-2018__container__catalog__items">
-                            <h1 class="collection-2018__catalog__title">коллекция 2018</h1>
-                            <div class="collection-2018__catalog__line"></div>
-                            <span class="collection-2018__catalog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non rutrum ornare ut mattis habitant dui arcu. Sagittis amet nunc ut neque quis nibh arcu. Vivamus vestibulum nisi et venenatis sed scelerisque magna consectetur. Amet convallis quis gravida facilisis vulputate. Faucibus facilisi habitasse ipsum interdum dictum aliquet. Velit quis ullamcorper pulvinar nulla malesuada integer. Aenean praesent viverra nulla nullam natoque volutpat curabitur auctor. Viverra viverra ullamcorper scelerisque risus dignissim egestas. Id aliquam a aliquam egestas leo orci pharetra sed diam. </span>
-
-                            <button class="catalog-2018__button"><p>посмотреть коллекцию</p>
-                            </button>
-                </div>            
-            </div>            
-        </div>  
-        
-    </section>
-</body>
+  </body>
 </html>
