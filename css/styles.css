@@ -366,3 +366,110 @@ h1 {
   width: 100%;
 }
 /* footer */
+footer {
+  background-image: url(../img/footer-bcg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-container {
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.footer-container__title {
+  font-family: Playfair Display;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.footer-container__text {
+  font-family: PT Sans;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  max-width: 350px;
+  width: 100%;
+}
+.footer-container__categories {
+  display: flex;
+  flex-direction: column;
+}
+.footer-container__categories__tegs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 350px;
+  width: 100%;
+}
+.footer-container__categories__button {
+  padding: 10px 20px;
+  background-color: black;
+}
+
+.footer-container__categories__button {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #d0d0d0;
+}
+
+.footer-container__newsletter {
+  display: flex;
+  flex-direction: column;
+}
+.footer-container__newsletter__subtitle {
+  margin-bottom: 37px;
+  font-family: PT Sans;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  max-width: 350px;
+  width: 100%;
+}
+
+.footer-container__newsletter__input-area {
+}
+.footer__form {
+  display: flex;
+}
+.ínput__area {
+  max-width: 210px;
+  height: 40px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #f0f0f0;
+  padding-left: 15px;
+  border: none;
+}
+
+.form__button_1 {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  max-width: 140px;
+  width: 140px;
+  height: 41px;
+  color: white;
+  background: #0f0f0f;
+  padding: auto;
+  border: none;
+}
